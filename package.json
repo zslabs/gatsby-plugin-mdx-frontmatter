@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-mdx-frontmatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility to parse Markdown frontmatter with MDX in Gatsby using GraphQL Schema customization",
   "author": "Zach Schnackel <info@zslabs.com>",
   "license": "MIT",
