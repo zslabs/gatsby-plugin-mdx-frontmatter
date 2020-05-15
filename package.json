@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-plugin-mdx-frontmatter",
+  "version": "0.0.1",
+  "description": "Utility to parse Markdown frontmatter with MDX in Gatsby using GraphQL Schema customization",
+  "author": "Zach Schnackel <info@zslabs.com>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "mdx",
+    "frontmatter"
+  ],
+  "homepage": "https://github.com/zslabs/gatsby-plugin-mdx-frontmatter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zslabs/gatsby-plugin-mdx-frontmatter.git"
+  },
+  "peerDependencies": {
+    "gatsby": ">=2.21.33",
+    "gatsby-plugin-mdx": ">=1.2.7",
+    "@mdx-js/mdx": ">=1.6.1",
+    "@mdx-js/react": ">=1.6.1"
+  }
+}
