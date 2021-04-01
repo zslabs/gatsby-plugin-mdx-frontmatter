@@ -10,6 +10,9 @@ exports.createSchemaCustomization = ({
         resolve(source, args, context, info) {
           // Grab field
           const value = source[info.fieldName]
+          if (typeof value === 'undefined') {
+            return null;
+          }
           // Isolate MDX
           const mdxType = info.schema.getType('Mdx')
           // Grab just the body contents of what MDX generates
