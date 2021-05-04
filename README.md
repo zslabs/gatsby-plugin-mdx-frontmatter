@@ -75,7 +75,7 @@ import Button from "../components/Button";
 import Graph from "../components/Graph";
 
 const Article = ({ frontmatter, body }) => (
-  <MDXProvider components={[Button, Graph]}>
+  <MDXProvider components={{Button, Graph}}>
     <div>
       <h1>{frontmatter.title}</h1>
 
